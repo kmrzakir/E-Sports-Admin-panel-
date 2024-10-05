@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  /* Sets Full Height for html and body: */
+  /* By default, the <html> and <body> elements
+   only take up as much height as their content requires */
+  html, body {
+    height: 100%;
+    background-color: #0a272f;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  /* top tool bar here */
+  nav{
+    padding: 20px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+  }
+  #different_pages > ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  #different_pages > ul > li{
+    list-style-type: none;
+  }
+  #different_pages > ul > li:hover{
+    color: brown;
+  }
+
+  /* main contennt here */
+ .main_cntainer_content{
+   flex-grow: 1;
+   /* When you apply flex-grow: 1; to a flex item, you're instructing
+   it to take up any available extra space in the flex container proportionally
+   relative to other flex items that also have a flex-grow value set. */
+    display: flex;
+    align-items: center;
+ }
+ .main_cntainer_content > div{
+  width: 100px;
+  height: 100px;
+  flex-grow: 1;
+  border: 2px dotted red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ .main_cntainer_content > div >p{
+  color: white;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+ }
+ .join_tournaments_btn{
+  color: white;
+  background-color: #134356;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }

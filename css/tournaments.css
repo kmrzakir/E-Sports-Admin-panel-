@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #040d17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+  .main-container{
+    flex-grow: 1;
+    height: 90%;
+    display: flex;
+  }
+  .form-container,.help{
+    flex-grow: 1;
+    border: 2px solid blue;
+  }
+
+  .form-container {
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 2px solid white; 
+    border-radius: 8px;
+    padding: 10px;
+  }
+  label{
+    display: inline;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+  }
+
+   #playmode-prize-imageinput{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+  label[for="playMode"],label[for="prize"]{
+    margin-bottom: 10px;
+  }
+  #imageInput{
+    width: 100px;
+    margin-left: 20px;
+    background-color: transparent;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+ /* h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+   */
